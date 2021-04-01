@@ -19,6 +19,9 @@
     "mysql2": "^2.2.5",
     "npm": "^7.6.2"
   },
+  "engines": {
+    "npm": "2.1.x"
+  },
   "devDependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",

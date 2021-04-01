@@ -33,3 +33,8 @@ app.set('port', process.env.PORT || 3000);
 // lister for requests
 app.listen(3000);
 
+// simple route
+app.get("/", (req, res) => {
+    res.json({ message: "SCHEDULIO" });
+});
+

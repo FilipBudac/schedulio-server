@@ -36,3 +36,5 @@ db.sequelize = sequelize;
 
 // register models
 db.user = require("./User.js");
+db.contact = require("./Contact.js");
+db.company = require("./Company.js");
